@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: #F3F5FC;
+    font-style: normal;
+    font-size: 18px;
+    color: #032c5e;
+}
+
+.logo{
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    top: 1rem;
+    bottom: 0%;
+}
+
+.enc_text, .des_text{
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-size: 18px;
+    color: #032c5e;
+    resize: none;
+    padding: 5px;
+    outline: none;
+}
+
+
+/********** PRIMER ESPACIO **********/
+.espacio1{
+    width: 80%;
+    height: 100%;
+
+}
+
+.enc_text{
+    width: 100%;
+    height: 80%;
+    background: #f3f5fc;
+    margin-top: 10rem;
+    width: 35rem;
+    height: 12rem;
+    font-style: normal;
+    font-size: 18px;
+    color: #032c5e;
+    border: none;
+    outline: none;
+}
+
+.icon_advertencia{
+    display: flex;
+    position: absolute;
+    width: 1.3rem;
+    height: 1.3rem;
+    left: 12rem;
+    top: 28rem;  
+}
+
+.letras-advertencias{
+    position: absolute;
+    left: 14rem;
+    top: 28rem;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.contenedorBotones{
+    position: relative;
+    margin-top: 10rem;
+    left: 3rem;
+    display: flex;
+    margin-bottom: 5rem;
+    width: 30rem;
+    height: 4rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.btn1{
+    color: #FFFFFF;
+    border: 1px solid #0A3871;
+    padding: 1rem;
+    width: 13.5rem;
+    height: 3rem;
+    cursor: pointer;  
+    background: #0A3871;
+    border-radius: 24px;
+    box-sizing: border-box;
+}
+
+
+.btn2{
+    color: #0A3871;
+    width: 13.5rem;
+    padding: 1rem;
+    height: 3rem;
+    cursor: pointer;  
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+/********** ESPACIO 2**********/
+.espacio2{
+    min-height: 80vh;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.todoTextArea{
+    width: 21rem;
+    height: 34rem;
+    background-image: url("../Img/imagen_hombre.png");
+    background-repeat: no-repeat;
+}
+
+.letras{
+   
+    position: relative;
+    width: 21rem;
+    height: 2rem;
+    top: 21rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+
+.letras2{
+    position:relative;
+    width: 21rem;
+    height: 2rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 5px 0px;
+    top: 21rem;
+}
+
+.botones_copi_lim{
+    position: absolute;
+    margin-top: -2rem;
+    width: 20rem;
+    height: 3rem;
+    margin-left: 15px;
+}
+
+
+.btn_copiar{
+    color: #0A3871;
+    width: 9.5rem;
+    padding: 15px;
+    cursor: pointer;  
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+.btn_limpiar{
+    color: #FFFFFF;
+    border: 1px solid #0A3871;
+    padding: 15px;
+    width: 9.5rem;
+    cursor: pointer;  
+    background: #0A3871;
+    border-radius: 24px;
+    box-sizing: border-box;
+}
+
+.realizadoX{
+    position: relative;
+    top: 8rem;
+    width: 100rem;
+    height: 4rem;
+    background-color:  #D8DFE8;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+
+.cambio{
+
+    visibility: hidden;
+   
+    
+}

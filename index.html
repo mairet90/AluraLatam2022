@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa - Encriptador de Texto </title>
+    <link rel="stylesheet" href="css/estilo.css" >
+    <link  rel="icon"   href="Img/icon.png" type="image/png" />
+
+</head>
+<body>
+    <main>
+        <img class="logo" src="Img/logoalura.png" alt="Logo-Alura"/>
+      
+        <!-- text area para encriptar -->
+        <div class="espacio1">
+            <textarea class="enc_text" id="textareaEncriptar" placeholder="Ingresa el texto aqui" ></textarea>
+            <img class="icon_advertencia" src="Img/Vector.png" alt="signo-alarma">
+            <p class="letras-advertencias">Introduce Sólo letras minúsculas y sin acentos</p>
+
+            <div class="contenedorBotones">
+                <button id="btn_encriptar" class="btn1">Encriptar</button>
+                <button  id="btn_Desencriptar" class="btn2">Desencriptar</button>
+            </div>
+         </div>
+
+
+        <!-- Text area para desencriptar -->
+        <!-- readonly no permite escribir en esa area de texto-->
+        <div class="espacio2">
+            <textarea class="des_text" id="textareaDesencriptar" readonly></textarea>
+            <div class = "todoTextArea">
+                <p class="letras">
+                    <span> Ningún mensaje fue encontrado</span>
+                    <br/>
+                    <div class="letras2"> Ingrese el texto que desees encriptar o desencriptar </div>
+                </p>
+            </div>
+        
+            
+            <div class="botones_copi_lim">
+                <button class="btn_copiar">Copiar</button>
+                <button class="btn_limpiar">Limpiar</button>
+            </div>
+        </div>   
+        
+        <script src="js/encriptar.js"></script>
+        <script src="js/desencriptar.js"></script>
+        <script src="js/copiar.js"></script>
+        
+
+
+    </main>
+
+    <footer class="realizadoX">
+        <p>Todos los derechos reservados | © 2022 Mairet González</p>
+    </footer>
+</body>
+</html>
