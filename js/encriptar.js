@@ -62,6 +62,7 @@ botonEncriptar.addEventListener("click", function(event){
         /****************** CAMBIO Y LIMPIAR EL TEXTAREA *********************/
         txtareaEncriptar.value = "";
         figuras.classList.add('cambio');
+        figuras.classList.add('textArea2');
         document.getElementById("textareaDesencriptar").value = nuevoMensaje; 
 
          

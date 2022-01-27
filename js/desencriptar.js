@@ -24,6 +24,9 @@ botonDesencriptar.addEventListener("click", function(event){
       if(textoUsuarioE.length > 1){
         textoEnEncriptar(textoUsuarioE);
         console.log(textoUsuarioE);
+      }if(textoUsuarioE.length > 1){
+        textoEnDesencriptar(textoUsuarioD);
+        console.log(textoUsuarioD);
       }
     }
 });0 

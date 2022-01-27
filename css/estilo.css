@@ -120,8 +120,8 @@ body{
 
 /********** ESPACIO 2**********/
 .espacio2{
-    min-height: 80vh;
-    background-color: #fff;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     margin-top: 2rem;
     border-radius: 10px;
@@ -129,9 +129,10 @@ body{
 
 .todoTextArea{
     width: 21rem;
-    height: 34rem;
+    height: 32rem;
     background-image: url("../Img/imagen_hombre.png");
     background-repeat: no-repeat;
+    margin-left: 2rem;
 }
 
 .letras{
@@ -177,7 +178,7 @@ body{
     margin-top: -2rem;
     width: 20rem;
     height: 3rem;
-    margin-left: 15px;
+    margin-left: 3rem;
 }
 
 
