@@ -27,7 +27,7 @@ botonEncriptar.addEventListener("click", function(event){
      }else{
 
                 var cambioMinuscula = textoUsuario.toLocaleLowerCase();
-                console.log(cambioMinuscula);
+                
                 var nuevoMensaje = '';
 
                 for(var i =0; i < cambioMinuscula.length; i++){
